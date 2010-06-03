@@ -1,0 +1,10 @@
+JAVA_CLASSPATH="xercesImpl.jar"
+ORIG_PN="apache-maven"
+inherit ant
+
+
+HOMEPAGE="http://maven.apache.org/"
+SRC_URI="mirror://apache/maven/source/${ORIG_PN}-${PV}-src.tar.gz"
+
+ANT_OPTS="-Xmx512M -Xms512M"
+ANT_BUILD_ARGS="-Dmaven.home=/usr/share/maven"

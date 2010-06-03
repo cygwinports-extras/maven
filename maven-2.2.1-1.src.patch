@@ -1,0 +1,20 @@
+--- origsrc/apache-maven-2.2.1/apache-maven/src/bin/mvn	2009-08-06 14:11:25.000000000 -0500
++++ src/apache-maven-2.2.1/apache-maven/src/bin/mvn	2010-05-11 03:05:14.715584300 -0500
+@@ -54,7 +54,6 @@ cygwin=false;
+ darwin=false;
+ mingw=false
+ case "`uname`" in
+-  CYGWIN*) cygwin=true ;;
+   MINGW*) mingw=true;;
+   Darwin*) darwin=true 
+            if [ -z "$JAVA_VERSION" ] ; then
+--- origsrc/apache-maven-2.2.1/apache-maven/src/bin/mvnDebug	2009-08-06 14:11:25.000000000 -0500
++++ src/apache-maven-2.2.1/apache-maven/src/bin/mvnDebug	2010-05-11 03:05:26.491257800 -0500
+@@ -58,7 +58,6 @@ cygwin=false;
+ darwin=false;
+ mingw=false
+ case "`uname`" in
+-  CYGWIN*) cygwin=true ;;
+   MINGW*) mingw=true;;
+   Darwin*) darwin=true 
+            if [ -z "$JAVA_VERSION" ] ; then
